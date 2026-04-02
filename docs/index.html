@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HG2PY0RKCW"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      const isDebug = location.hostname === 'localhost' && new URLSearchParams(location.search).has('debug');
+
+      gtag('config', 'G-HG2PY0RKCW');
+
+      if (isDebug)
+      {
+        gtag('config', 'G-HG2PY0RKCW', {debug_mode: true});
+      }
+    </script>
+
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./icon3.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Matthew Lim -- CV</title>
+    <meta name="description" content="Senior Software Engineer with 16+ years in C++, IoT, industrial automation, and full-stack development. Interactive Windows 95-themed CV." />
+    <meta property="og:title" content="Matthew Lim — Interactive CV" />
+    <meta property="og:description" content="Senior Software Engineer with 16+ years in C++, IoT, industrial automation, and full-stack development." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Matthew Lim — Interactive CV" />
+    <meta name="twitter:description" content="Senior Software Engineer with 16+ years in C++, IoT, industrial automation, and full-stack development." />
+    <script type="module" crossorigin src="./assets/index-HKWmicSq.js"></script>
+    <link rel="modulepreload" crossorigin href="./assets/buildInfo-Bs3nmV4-.js">
+    <link rel="stylesheet" crossorigin href="./assets/index-VKSagUea.css">
+  <link rel="manifest" href="./manifest.webmanifest"><script id="vite-plugin-pwa:register-sw" src="./registerSW.js"></script></head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
